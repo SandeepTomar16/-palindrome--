@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 15px;
+
+  background: #FF4E50;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(135deg, #FF4E50, #F9D423);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(135deg, #FF4E50, #F9D423);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container{
+    background-color: rgb(247, 247, 247);
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.subheading{
+    margin-top: 10px;
+    color: rgb(41, 40, 40);
+}
+#inputVal:focus{
+     box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+}
+#inputVal{
+    margin-top: 15px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #999;
+    outline: none;
+    transition: 0.1s ease;
+    /* background-color: rgb(238, 238, 238) */
+    font-size: 19px;
+    padding: 10px;
+    }
+             
+.submit {
+            background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%);
+            margin-top: 10px;
+    width: 100%;
+    height: 60px;
+            
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            border: 1px solid rgb(172, 172, 172);
+            font-size: 15px;
+            font-weight: 500;
+            cursor: pointer;
+          }
+
+          .submit:hover {
+            background-position: right center; 
+            color: #fff;
+            text-decoration: none;
+          }
+         
+.result{
+     margin-top: 15px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+    /* display: none; */
+    
+}
+.result span{
+    font-weight: 700;
+}
+
